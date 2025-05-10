@@ -36,11 +36,39 @@
 
 # ================for loop=================
 
-arr = [2,4,5,6,4]
+# arr = [2,4,5,6,4]
 
-for num in arr:
-    square = num * num
+# for num in arr:
+#     square = num * num
 
-    print(f"Squire of the {num} is: {square}")
+#     print(f"Squire of the {num} is: {square}")
 
 
+# Define an array (list)
+numbers = [10, 20, 30, 40, 50]
+
+# 1. Print all elements
+print("All numbers:", numbers)
+
+# 2. Add an element to the list
+numbers.append(60)
+print("After appending 60:", numbers)
+
+# 3. Remove an element
+numbers.remove(30)
+print("After removing 30:", numbers)
+
+# 4. Find the length of the list
+print("Length of the list:", len(numbers))
+
+# 5. Access a specific element
+print("First element:", numbers[0])
+
+# 6. Sum all elements
+print("Sum of all elements:", sum(numbers))
+
+# 7. Check if a number exists in the list
+if 20 in numbers:
+    print("20 is in the list")
+else:
+    print("20 is not in the list")
