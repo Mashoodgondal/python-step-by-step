@@ -26,3 +26,21 @@
 # for planet,ratio in gravity_ratios.items():
 #     planet_weight = earth_weight * ratio
 #     print(f"{planet}:{planet_weight:.3f}kg")
+
+# =============== if Statement ============
+# age =10
+# if age>15:
+#     print("you are audult")
+# else:
+#     print("you are not audult")
+
+# ================for loop=================
+
+arr = [2,4,5,6,4]
+
+for num in arr:
+    square = num * num
+
+    print(f"Squire of the {num} is: {square}")
+
+
