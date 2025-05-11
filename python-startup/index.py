@@ -64,3 +64,9 @@ numbers = [10, 20, 30, 40, 50]
 # ============insert element============
 # numbers.insert(4,80)
 # print("print after insertion:" , numbers)
+# ============clear all elements========
+# numbers.clear()
+# print("crear array", numbers)
+# =========find index =====
+# numbers.index(20)
+print("index of the number is " , numbers.index(20))
