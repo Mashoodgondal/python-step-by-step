@@ -45,7 +45,7 @@
 
 
 # Define an array (list)
-numbers = [10, 20, 30, 40, 50]\
+numbers = [10, 20, 30, 40, 50]
 # ===========remove element==========
 # numbers.remove(20)
 # print("remove one element",numbers)
@@ -58,5 +58,9 @@ numbers = [10, 20, 30, 40, 50]\
 # print("here is the sum of all numbers:" , sum(numbers))
 # ================print all elements==============
 # print("All numbers:", numbers)
-
-
+# ===========remove arrording ot condition=========
+# numbers.pop(3)
+# print("remove last element" , numbers)
+# ============insert element============
+# numbers.insert(4,80)
+# print("print after insertion:" , numbers)
