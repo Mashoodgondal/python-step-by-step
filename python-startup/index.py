@@ -45,7 +45,7 @@
 
 
 # Define an array (list)
-numbers = [10, 20, 30, 40, 50]
+# numbers = [10, 20, 30, 40, 50]
 # ===========remove element==========
 # numbers.remove(20)
 # print("remove one element",numbers)
@@ -100,3 +100,10 @@ numbers = [10, 20, 30, 40, 50]
 # =========find index =====
 # numbers.index(20)
 # print("index of the number is " , numbers.index(20))
+
+# ============Find dogs years using human years============
+
+dog_years = 7.18
+age =  int(input("Enter an age in calendar years: "))
+total = age * dog_years
+print("That's"+ str(total) +"in dog years!")
