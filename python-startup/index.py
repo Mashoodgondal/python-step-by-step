@@ -109,7 +109,21 @@
 # print("That's"+ str(total) +"in dog years!")
 
 # ========Print random number in dice===========
-import random
-sides = int(input("How many sides does your dice have? "))
-roll = random.randint(1, sides)
-print("Your roll is ", roll)
+# import random
+# sides = int(input("How many sides does your dice have? "))
+# roll = random.randint(1, sides)
+# print("Your roll is ", roll)
+
+# ========== judge usign color and adjecent========
+
+# color = input("A color: ")
+# adjective = input("An adjective: ")
+# goal= input("A goal you would like to achieve:")
+# if color=='blue' and adjective=='smelly' and goal=='eat fewer bugs':
+#         # print("A color: ", color)
+#         # print("An adjective: ", adjective)
+#     print("At dawn the sky turned blue, and the air felt smelly. I decided today I will finally eat fewer bugs.")
+# if color=='pink' and adjective=='friendly' and goal=='learn to code':
+#         # print("A color: ", color)
+#         # print("An adjective: ", adjective)
+#     print("At dawn the sky turned pink, and the air felt friendly. I decided today I will finally learn to code.")
