@@ -103,7 +103,13 @@
 
 # ============Find dogs years using human years============
 
-dog_years = 7.18
-age =  int(input("Enter an age in calendar years: "))
-total = age * dog_years
-print("That's"+ str(total) +"in dog years!")
+# dog_years = 7.18
+# age =  int(input("Enter an age in calendar years: "))
+# total = age * dog_years
+# print("That's"+ str(total) +"in dog years!")
+
+# ========Print random number in dice===========
+import random
+sides = int(input("How many sides does your dice have? "))
+roll = random.randint(1, sides)
+print("Your roll is ", roll)
