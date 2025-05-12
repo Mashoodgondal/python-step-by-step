@@ -81,6 +81,19 @@ numbers = [10, 20, 40, 30, 50]
 # print(numbers)
 
 
+# numbers.index(20)
+# print("index of the number is " , numbers.index(20))
+# =========sort array ==========
+# numbers.sort()
+# print(numbers)
+# =========sort in reversed==========
+# numbers.sort(reverse=True)
+# print(numbers)
+# ===========reverse array=========
+# numbers.reverse()
+# print(numbers)
+
+
 
 # ============Find dogs years using human years============
 
