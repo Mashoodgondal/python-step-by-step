@@ -45,7 +45,7 @@
 
 
 # Define an array (list)
-# numbers = [10, 20, 30, 40, 50]
+numbers = [10, 20, 40, 30, 50]
 # ===========remove element==========
 # numbers.remove(20)
 # print("remove one element",numbers)
@@ -70,36 +70,17 @@
 # =========find index =====
 # numbers.index(20)
 # print("index of the number is " , numbers.index(20))
+# =========sort array ==========
+# numbers.sort()
+# print(numbers)
+# =========sort in reversed==========
+# numbers.sort(reverse=True)
+# print(numbers)
+# ===========reverse array=========
+# numbers.reverse()
+# print(numbers)
 
 
-
-
-# numbers.pop(3)
-# print("remove last element" , numbers)
-# ============insert element============
-# numbers.insert(4,80)
-# print("print after insertion:" , numbers)
-# ============clear all elements========
-# numbers.clear()
-# print("crear array", numbers)
-# =========find index =====
-# numbers.index(20)
-# print("index of the number is " , numbers.index(20))
-
-
-
-
-# numbers.pop(3)
-# print("remove last element" , numbers)
-# ============insert element============
-# numbers.insert(4,80)
-# print("print after insertion:" , numbers)
-# ============clear all elements========
-# numbers.clear()
-# print("crear array", numbers)
-# =========find index =====
-# numbers.index(20)
-# print("index of the number is " , numbers.index(20))
 
 # ============Find dogs years using human years============
 
