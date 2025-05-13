@@ -139,3 +139,14 @@
 #         guess = int(input("Guess again: "))
 
 #     print("🎉 Correct! You guessed the secret number:", secret_number)
+#  secret_number = random.randint(1, 10)
+#     guess = int(input("Guess the secret number (between 1 and 10): "))
+
+#     while guess != secret_number:
+#         if guess < secret_number:
+#             print("Too low! Try again.")
+#         else:
+#             print("Too high! Try again.")
+#         guess = int(input("Guess again: "))
+
+#     print("🎉 Correct! You guessed the secret number:", secret_number)
