@@ -116,14 +116,26 @@
 #     number = new_num
 
 # ===========Game to guess secret number==========
-import random
-sceret_number = random.randint(1, 10)
-guess = int(input("Enter your guess number between(1,10): "))
-while guess != sceret_number:
-    if guess< sceret_number:
-        print("you are too low Try again")
-    else:
-        print("You are too high Try again")
-    guess= int(input("Enter again"))    
+# import random
+# sceret_number = random.randint(1, 10)
+# guess = int(input("Enter your guess number between(1,10): "))
+# while guess != sceret_number:
+#     if guess< sceret_number:
+#         print("you are too low Try again")
+#     else:
+#         print("You are too high Try again")
+#     guess= int(input("Enter again"))    
 
-print("congrants you are correct You'r number is ",sceret_number)
+# print("congrants you are correct You'r number is ",sceret_number)
+
+#  secret_number = random.randint(1, 10)
+#     guess = int(input("Guess the secret number (between 1 and 10): "))
+
+#     while guess != secret_number:
+#         if guess < secret_number:
+#             print("Too low! Try again.")
+#         else:
+#             print("Too high! Try again.")
+#         guess = int(input("Guess again: "))
+
+#     print("🎉 Correct! You guessed the secret number:", secret_number)
