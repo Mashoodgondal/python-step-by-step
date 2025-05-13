@@ -45,7 +45,7 @@
 
 
 # Define an array (list)
-numbers = [10, 20, 40, 30, 50]
+# numbers = [10, 20, 40, 30, 50]
 # ===========remove element==========
 # numbers.remove(20)
 # print("remove one element",numbers)
@@ -80,21 +80,6 @@ numbers = [10, 20, 40, 30, 50]
 # numbers.reverse()
 # print(numbers)
 
-
-# numbers.index(20)
-# print("index of the number is " , numbers.index(20))
-# =========sort array ==========
-# numbers.sort()
-# print(numbers)
-# =========sort in reversed==========
-# numbers.sort(reverse=True)
-# print(numbers)
-# ===========reverse array=========
-# numbers.reverse()
-# print(numbers)
-
-
-
 # ============Find dogs years using human years============
 
 # dog_years = 7.18
@@ -121,3 +106,11 @@ numbers = [10, 20, 40, 30, 50]
 #         # print("A color: ", color)
 #         # print("An adjective: ", adjective)
 #     print("At dawn the sky turned pink, and the air felt friendly. I decided today I will finally learn to code.")
+
+# ===============Multiply nummber======
+
+number = int(input("Enter a number "))
+while number < 100:
+    new_num= number * 2
+    print(new_num)
+    number = new_num
