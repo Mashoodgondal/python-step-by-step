@@ -127,114 +127,26 @@
 #     guess= int(input("Enter again"))    
 
 # print("congrants you are correct You'r number is ",sceret_number)
+
+# ===============Multiply nummber======
+
+# number = int(input("Enter a number "))
+# while number < 100:
+#     new_num= number * 2
+#     print(new_num)
+#     number = new_num
+
+# ===========Game to guess secret number==========
+# import random
+# sceret_number = random.randint(1, 10)
+# guess = int(input("Enter your guess number between(1,10): "))
+# while guess != sceret_number:
+#     if guess< sceret_number:
+#         print("you are too low Try again")
+#     else:
+#         print("You are too high Try again")
+#     guess= int(input("Enter again"))    
+
+# print("congrants you are correct You'r number is ",sceret_number)
  
 
-# numbers.clear()
-# print("crear array", numbers)
-# =========find index =====
-# numbers.index(20)
-# print("index of the number is " , numbers.index(20))
-# =========sort array ==========
-# numbers.sort()
-# print(numbers)
-# =========sort in reversed==========
-# numbers.sort(reverse=True)
-# print(numbers)
-# ===========reverse array=========
-# numbers.reverse()
-# print(numbers)
-# numbers.clear()
-# print("crear array", numbers)
-# =========find index =====
-# numbers.index(20)
-# print("index of the number is " , numbers.index(20))
-# =========sort array ==========
-# numbers.sort()
-# print(numbers)
-# =========sort in reversed==========
-# numbers.sort(reverse=True)
-# print(numbers)
-# ===========reverse array=========
-# numbers.reverse()
-# print(numbers)
-# numbers.clear()
-# print("crear array", numbers)
-# =========find index =====
-# numbers.index(20)
-# print("index of the number is " , numbers.index(20))
-# =========sort array ==========
-# numbers.sort()
-# print(numbers)
-# =========sort in reversed==========
-# numbers.sort(reverse=True)
-# print(numbers)
-# ===========reverse array=========
-# numbers.reverse()
-# print(numbers)# numbers.clear()
-# print("crear array", numbers)
-# =========find index =====
-# numbers.index(20)
-# print("index of the number is " , numbers.index(20))
-# =========sort array ==========
-# numbers.sort()
-# print(numbers)
-# =========sort in reversed==========
-# numbers.sort(reverse=True)
-# print(numbers)
-# ===========reverse array=========
-# numbers.reverse()
-# print(numbers)
-# numbers.clear()
-# print("crear array", numbers)
-# =========find index =====
-# numbers.index(20)
-# print("index of the number is " , numbers.index(20))
-# =========sort array ==========
-# numbers.sort()
-# print(numbers)
-# =========sort in reversed==========
-# numbers.sort(reverse=True)
-# print(numbers)
-# ===========reverse array=========
-# numbers.reverse()
-# print(numbers)
-# numbers.clear()
-# print("crear array", numbers)
-# =========find index =====
-# numbers.index(20)
-# print("index of the number is " , numbers.index(20))
-# =========sort array ==========
-# numbers.sort()
-# print(numbers)
-# =========sort in reversed==========
-# numbers.sort(reverse=True)
-# print(numbers)
-# ===========reverse array=========
-# numbers.reverse()
-# print(numbers)# numbers.clear()
-# print("crear array", numbers)
-# =========find index =====
-# numbers.index(20)
-# print("index of the number is " , numbers.index(20))
-# =========sort array ==========
-# numbers.sort()
-# print(numbers)
-# =========sort in reversed==========
-# numbers.sort(reverse=True)
-# print(numbers)
-# ===========reverse array=========
-# numbers.reverse()
-# print(numbers)# numbers.clear()
-# print("crear array", numbers)
-# =========find index =====
-# numbers.index(20)
-# print("index of the number is " , numbers.index(20))
-# =========sort array ==========
-# numbers.sort()
-# print(numbers)
-# =========sort in reversed==========
-# numbers.sort(reverse=True)
-# print(numbers)
-# ===========reverse array=========
-# numbers.reverse()
-# print(numbers)
