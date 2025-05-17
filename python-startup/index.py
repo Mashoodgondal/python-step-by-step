@@ -129,6 +129,25 @@
 # print("congrants you are correct You'r number is ",sceret_number)
 
 # ============ Round Game=============
+# import random
+# round_number = 0
+# for i in range(6):
+#     print("New institutoin")
+#     num1= random.randint(1,99)
+#     num2 = random.randint(1,99)
+#     sum = num1 + num2
+#     print(f"what is {num1} + {num2}? ")
+#     use_input = int(input("Your answer: "))
+#     if use_input == sum:
+#         round_number += 1
+#         print("Corrected")
+#         print(f"you gotten {round_number} corrected")
+#     else:
+#         round_number = 0
+#         print("wrong answer")
+#         print(f"Expected answer is {sum}")
+    
+
 import random
 round_number = 0
 for i in range(6):
@@ -146,5 +165,3 @@ for i in range(6):
         round_number = 0
         print("wrong answer")
         print(f"Expected answer is {sum}")
-    
-
