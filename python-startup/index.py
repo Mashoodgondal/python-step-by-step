@@ -135,8 +135,9 @@ for i in range(6):
     num1= random.randint(1,99)
     num2 = random.randint(1,99)
     sum = num1 + num2
-    user_input = input("What is {num1} + {num2}? ")
-    if user_input == sum:
+    print(f"what is {num1} + {num2}? ")
+    use_input = int(input("Your answer: "))
+    if use_input == sum:
         round_number += 1
         print("Corrected")
         print(f"you gotten {round_number} corrected")
