@@ -128,67 +128,21 @@
 
 # print("congrants you are correct You'r number is ",sceret_number)
 
-# ===============Multiply nummber======
-
-# number = int(input("Enter a number "))
-# while number < 100:
-#     new_num= number * 2
-#     print(new_num)
-#     number = new_num
-
-# ===========Game to guess secret number==========
-# import random
-# sceret_number = random.randint(1, 10)
-# guess = int(input("Enter your guess number between(1,10): "))
-# while guess != sceret_number:
-#     if guess< sceret_number:
-#         print("you are too low Try again")
-#     else:
-#         print("You are too high Try again")
-#     guess= int(input("Enter again"))    
-
-# print("congrants you are correct You'r number is ",sceret_number)
-
-# ===============Multiply nummber======
-
-# number = int(input("Enter a number "))
-# while number < 100:
-#     new_num= number * 2
-#     print(new_num)
-#     number = new_num
-
-# ===========Game to guess secret number==========
-# import random
-# sceret_number = random.randint(1, 10)
-# guess = int(input("Enter your guess number between(1,10): "))
-# while guess != sceret_number:
-#     if guess< sceret_number:
-#         print("you are too low Try again")
-#     else:
-#         print("You are too high Try again")
-#     guess= int(input("Enter again"))    
-
-# print("congrants you are correct You'r number is ",sceret_number)
-# ===============Multiply nummber======
-
-# number = int(input("Enter a number "))
-# while number < 100:
-#     new_num= number * 2
-#     print(new_num)
-#     number = new_num
-
-# ===========Game to guess secret number==========
-# import random
-# sceret_number = random.randint(1, 10)
-# guess = int(input("Enter your guess number between(1,10): "))
-# while guess != sceret_number:
-#     if guess< sceret_number:
-#         print("you are too low Try again")
-#     else:
-#         print("You are too high Try again")
-#     guess= int(input("Enter again"))    
-
-# print("congrants you are correct You'r number is ",sceret_number)
-
- 
+# ============ Round Game=============
+import random
+round_number = 0
+for i in range(6):
+    num1= random.randint(1,99)
+    num2 = random.randint(1,99)
+    sum = num1 + num2
+    user_input = input("What is {num1} + {num2}? ")
+    if user_input == sum:
+        round_number += 1
+        print("Corrected")
+        print(f"you gotten {round_number} corrected")
+    else:
+        round_number = 0
+        print("wrong answer")
+        print(f"Expected answer is {sum}")
+    
 
