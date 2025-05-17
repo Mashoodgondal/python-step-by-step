@@ -132,6 +132,7 @@
 import random
 round_number = 0
 for i in range(6):
+    print("New institutoin")
     num1= random.randint(1,99)
     num2 = random.randint(1,99)
     sum = num1 + num2
