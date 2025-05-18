@@ -149,31 +149,65 @@
 
 # =========== Number guess Game============
     
+# import random
+# # Random number between 1 and 100
+# secret_number = random.randint(1, 100)
+# attempts = 0
+
+# # While loop for the guessing game
+# while True:
+#     guess = input("Guess a number between 1 and 100 (or type 'exit' to quit): ")
+    
+#     if guess.lower() == 'exit':
+#         print("Thanks for playing! The number was:", secret_number)
+#         break
+    
+#     if not guess.isdigit():
+#         print("Please enter a valid number!")
+#         continue
+
+#     guess = int(guess)
+#     attempts += 1
+
+#     if guess < secret_number:
+#         print("Too low! Try again.")
+#     elif guess > secret_number:
+#         print("Too high! Try again.")
+#     else:
+#         print(f"🎉 Congratulations! You guessed it in {attempts} attempts.")
+#         break
+
+
+
+
+
+
+
+
 import random
-# Random number between 1 and 100
-secret_number = random.randint(1, 100)
-attempts = 0
+# # Random number between 1 and 100
+# secret_number = random.randint(1, 100)
+# attempts = 0
 
-# While loop for the guessing game
-while True:
-    guess = input("Guess a number between 1 and 100 (or type 'exit' to quit): ")
+# # While loop for the guessing game
+# while True:
+#     guess = input("Guess a number between 1 and 100 (or type 'exit' to quit): ")
     
-    if guess.lower() == 'exit':
-        print("Thanks for playing! The number was:", secret_number)
-        break
+#     if guess.lower() == 'exit':
+#         print("Thanks for playing! The number was:", secret_number)
+#         break
     
-    if not guess.isdigit():
-        print("Please enter a valid number!")
-        continue
+#     if not guess.isdigit():
+#         print("Please enter a valid number!")
+#         continue
 
-    guess = int(guess)
-    attempts += 1
+#     guess = int(guess)
+#     attempts += 1
 
-    if guess < secret_number:
-        print("Too low! Try again.")
-    elif guess > secret_number:
-        print("Too high! Try again.")
-    else:
-        print(f"🎉 Congratulations! You guessed it in {attempts} attempts.")
-        break
-
+#     if guess < secret_number:
+#         print("Too low! Try again.")
+#     elif guess > secret_number:
+#         print("Too high! Try again.")
+#     else:
+#         print(f"🎉 Congratulations! You guessed it in {attempts} attempts.")
+#         break
