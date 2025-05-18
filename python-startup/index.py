@@ -146,17 +146,10 @@
 #         round_number = 0
 #         print("wrong answer")
 #         print(f"Expected answer is {sum}")
+
+# =========== Number guess Game============
     
 import random
-import time
-
-# Loading animation using a for loop
-print("Loading Game", end="")
-for i in range(5):
-    time.sleep(0.5)
-    print(".", end="")
-print("\nWelcome to the Number Guessing Game!")
-
 # Random number between 1 and 100
 secret_number = random.randint(1, 100)
 attempts = 0
