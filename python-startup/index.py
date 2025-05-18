@@ -147,21 +147,40 @@
 #         print("wrong answer")
 #         print(f"Expected answer is {sum}")
     
-
 import random
-round_number = 0
-for i in range(6):
-    print("New institutoin")
-    num1= random.randint(1,99)
-    num2 = random.randint(1,99)
-    sum = num1 + num2
-    print(f"what is {num1} + {num2}? ")
-    use_input = int(input("Your answer: "))
-    if use_input == sum:
-        round_number += 1
-        print("Corrected")
-        print(f"you gotten {round_number} corrected")
+import time
+
+# Loading animation using a for loop
+print("Loading Game", end="")
+for i in range(5):
+    time.sleep(0.5)
+    print(".", end="")
+print("\nWelcome to the Number Guessing Game!")
+
+# Random number between 1 and 100
+secret_number = random.randint(1, 100)
+attempts = 0
+
+# While loop for the guessing game
+while True:
+    guess = input("Guess a number between 1 and 100 (or type 'exit' to quit): ")
+    
+    if guess.lower() == 'exit':
+        print("Thanks for playing! The number was:", secret_number)
+        break
+    
+    if not guess.isdigit():
+        print("Please enter a valid number!")
+        continue
+
+    guess = int(guess)
+    attempts += 1
+
+    if guess < secret_number:
+        print("Too low! Try again.")
+    elif guess > secret_number:
+        print("Too high! Try again.")
     else:
-        round_number = 0
-        print("wrong answer")
-        print(f"Expected answer is {sum}")
+        print(f"🎉 Congratulations! You guessed it in {attempts} attempts.")
+        break
+
