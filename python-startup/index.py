@@ -178,92 +178,32 @@
 #         break
 
 
+# ============Design indonedion flag===========
+from graphics import Canvas
+
+CANVAS_WIDTH = 450
+CANVAS_HEIGHT = 300
+
+def main():
+    canvas = Canvas(CANVAS_WIDTH, CANVAS_HEIGHT)
+
+    # Dimensions for the flag
+    flag_width = 300
+    flag_height = 200
+    x = (CANVAS_WIDTH - flag_width) // 2
+    y = (CANVAS_HEIGHT - flag_height) // 2
+
+    # Top red part
+    canvas.create_rectangle(x, y, x + flag_width, y + flag_height // 2, 'red')
+
+    # Bottom white part
+    canvas.create_rectangle(x, y + flag_height // 2, x + flag_width, y + flag_height, 'white')
+
+
+if __name__ == '__main__':
+    main()
 
 
 
 
 
-
-# import random
-# # Random number between 1 and 100
-# secret_number = random.randint(1, 100)
-# attempts = 0
-
-# # While loop for the guessing game
-# while True:
-#     guess = input("Guess a number between 1 and 100 (or type 'exit' to quit): ")
-    
-#     if guess.lower() == 'exit':
-#         print("Thanks for playing! The number was:", secret_number)
-#         break
-    
-#     if not guess.isdigit():
-#         print("Please enter a valid number!")
-#         continue
-
-#     guess = int(guess)
-#     attempts += 1
-
-#     if guess < secret_number:
-#         print("Too low! Try again.")
-#     elif guess > secret_number:
-#         print("Too high! Try again.")
-#     else:
-#         print(f"🎉 Congratulations! You guessed it in {attempts} attempts.")
-#         break
-
-# import random
-# # Random number between 1 and 100
-# secret_number = random.randint(1, 100)
-# attempts = 0
-
-# # While loop for the guessing game
-# while True:
-#     guess = input("Guess a number between 1 and 100 (or type 'exit' to quit): ")
-    
-#     if guess.lower() == 'exit':
-#         print("Thanks for playing! The number was:", secret_number)
-#         break
-    
-#     if not guess.isdigit():
-#         print("Please enter a valid number!")
-#         continue
-
-#     guess = int(guess)
-#     attempts += 1
-
-#     if guess < secret_number:
-#         print("Too low! Try again.")
-#     elif guess > secret_number:
-#         print("Too high! Try again.")
-#     else:
-#         print(f"🎉 Congratulations! You guessed it in {attempts} attempts.")
-#         break
-
-# import random
-# # Random number between 1 and 100
-# secret_number = random.randint(1, 100)
-# attempts = 0
-
-# # While loop for the guessing game
-# while True:
-#     guess = input("Guess a number between 1 and 100 (or type 'exit' to quit): ")
-    
-#     if guess.lower() == 'exit':
-#         print("Thanks for playing! The number was:", secret_number)
-#         break
-    
-#     if not guess.isdigit():
-#         print("Please enter a valid number!")
-#         continue
-
-#     guess = int(guess)
-#     attempts += 1
-
-#     if guess < secret_number:
-#         print("Too low! Try again.")
-#     elif guess > secret_number:
-#         print("Too high! Try again.")
-#     else:
-#         print(f"🎉 Congratulations! You guessed it in {attempts} attempts.")
-#         break
