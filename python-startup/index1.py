@@ -14,4 +14,10 @@ string = 'my name is mashood ali'
 # ========title========
 # print(string.title())
 # =======Replace=======
-print(string.replace("mashood","ahmad"))
+# print(string.replace("mashood","ahmad"))
+# ===========length=====
+# print(len(string))
+
+# ==========check work is available or not ==========
+
+print("ali" in string)
