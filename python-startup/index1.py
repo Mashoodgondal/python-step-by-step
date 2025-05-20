@@ -32,3 +32,13 @@ print(f"My name is {name} and I am {age} years old.")
 
 # Using format()
 print("My name is {} and I am {} years old.".format(name, age))
+
+
+name = "Ali"
+age = 25
+
+# Using f-strings (recommended)
+print(f"My name is {name} and I am {age} years old.")
+
+# Using format()
+print("My name is {} and I am {} years old.".format(name, age))
