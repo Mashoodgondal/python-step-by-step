@@ -6,4 +6,12 @@
 
 
 string = 'my name is mashood ali'
-print(string)
+# print(string)
+# ========upercase========
+# print(string.upper())
+# ===========capitalize===========
+# print(string.capitalize())
+# ========title========
+# print(string.title())
+# =======Replace=======
+print(string.replace("mashood","ahmad"))
