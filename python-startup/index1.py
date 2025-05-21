@@ -55,6 +55,11 @@ string = 'my name is mashood ali'
 # ==========count vowevels===========
 
 def count_vovels(s):
-    vovels="aeiouAEIOU"
-    return sum(1 for char in s if char in vovels)
+    vowels="aeiouAEIOU"
+    # return sum(1 for char in s if char in vovels)
+    count = 0
+    for char in s:
+     if char in vowels:
+        count += 1
+    return count
 print(count_vovels("education"))
