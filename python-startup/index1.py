@@ -44,10 +44,17 @@ string = 'my name is mashood ali'
 # print("My name is {} and I am {} years old.".format(name, age))
 
 # =============remove duplicate in string===========
-def remove_duplicate(s):
-    result=""
-    for char in s:
-        if char not in result:
-            result += char
-    return result
-print(remove_duplicate("banana"))
+# def remove_duplicate(s):
+#     result=""
+#     for char in s:
+#         if char not in result:
+#             result += char
+#     return result
+# print(remove_duplicate("banana"))
+
+# ==========count vowevels===========
+
+def count_vovels(s):
+    vovels="aeiouAEIOU"
+    return sum(1 for char in s if char in vovels)
+print(count_vovels("education"))
