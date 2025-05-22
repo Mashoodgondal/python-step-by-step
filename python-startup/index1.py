@@ -54,12 +54,22 @@ string = 'my name is mashood ali'
 
 # ==========count vowevels===========
 
-def count_vovels(s):
-    vowels="aeiouAEIOU"
-    # return sum(1 for char in s if char in vovels)
-    count = 0
+# def count_vovels(s):
+#     vowels="aeiouAEIOU"
+#     # return sum(1 for char in s if char in vovels)
+#     count = 0
+#     for char in s:
+#      if char in vowels:
+#         count += 1
+#     return count
+# print(count_vovels("education"))
+
+
+# =========reverse strign==============
+def reverse_string(s):
+    reversed_str = ""
     for char in s:
-     if char in vowels:
-        count += 1
-    return count
-print(count_vovels("education"))
+        reversed_str = char + reversed_str  # prepend each character
+    return reversed_str
+
+print(reverse_string("hello"))
