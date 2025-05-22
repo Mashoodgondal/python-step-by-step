@@ -5,7 +5,7 @@
 # Double quotes "hello"
 
 
-string = 'my name is mashood ali'
+# string = 'my name is mashood ali'
 # print(string)
 # ========upercase========
 # print(string.upper())
@@ -75,29 +75,11 @@ string = 'my name is mashood ali'
 # print(reverse_string("hello"))
 
  
- # =========reverse strign==============
-# def reverse_string(s):
-#     reversed_str = ""
-#     for char in s:
-#         reversed_str = char + reversed_str  # prepend each character
-#     return reversed_str
+# =============Find frequency of each charcter in string=============
 
-# print(reverse_string("hello"))
+str = str(input("Enter any string: "))
+empty = ''
+for char in str:
+    empty = char + empty
+print(empty)
 
-# =========reverse strign==============
-# def reverse_string(s):
-#     reversed_str = ""
-#     for char in s:
-#         reversed_str = char + reversed_str  # prepend each character
-#     return reversed_str
-
-# print(reverse_string("hello"))
-
-# =========reverse strign==============
-# def reverse_string(s):
-#     reversed_str = ""
-#     for char in s:
-#         reversed_str = char + reversed_str  # prepend each character
-#     return reversed_str
-
-# print(reverse_string("hello"))
