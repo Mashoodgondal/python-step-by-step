@@ -77,9 +77,20 @@
  
 # =============Find frequency of each charcter in string=============
 
-str = str(input("Enter any string: "))
-empty = ''
-for char in str:
-    empty = char + empty
-print(empty)
+# Take input from user
+input_string = input("Enter a string: ")
 
+# Create an empty dictionary to store character frequencies
+char_freq = {}
+
+# Loop through each character in the string
+for char in input_string:
+    if char in char_freq:
+        char_freq[char] += 1  # If already present, increment count
+    else:
+        char_freq[char] = 1   # If not present, initialize with 1
+
+# Print the character frequencies
+print("Character Frequencies:")
+for char in char_freq:
+    print(f"'{char}': {char_freq[char]}")
