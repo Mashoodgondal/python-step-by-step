@@ -94,3 +94,18 @@ for char in input_string:
 print("Character Frequencies:")
 for char in char_freq:
     print(f"'{char}': {char_freq[char]}")
+
+
+
+
+
+
+
+# =========reverse strign==============
+# def reverse_string(s):
+#     reversed_str = ""
+#     for char in s:
+#         reversed_str = char + reversed_str  # prepend each character
+#     return reversed_str
+
+# print(reverse_string("hello"))
