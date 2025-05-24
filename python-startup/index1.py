@@ -80,32 +80,13 @@
 # Take input from user
 input_string = input("Enter a string: ")
 
-# Create an empty dictionary to store character frequencies
-char_freq = {}
-
-# Loop through each character in the string
+char_fre={}
 for char in input_string:
-    if char in char_freq:
-        char_freq[char] += 1  # If already present, increment count
+    if char in char_fre:
+        char_fre[char] += 1
     else:
-        char_freq[char] = 1   # If not present, initialize with 1
+        char_fre[char] = 1
 
-# Print the character frequencies
-print("Character Frequencies:")
-for char in char_freq:
-    print(f"'{char}': {char_freq[char]}")
-
-
-
-
-
-
-
-# =========reverse strign==============
-# def reverse_string(s):
-#     reversed_str = ""
-#     for char in s:
-#         reversed_str = char + reversed_str  # prepend each character
-#     return reversed_str
-
-# print(reverse_string("hello"))
+print("Frequency of all characters is")
+for char in char_fre:
+    print(f"{char} : {char_fre[char]}")            
