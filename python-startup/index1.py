@@ -89,15 +89,29 @@
 
 # print("Frequency of all characters is")
 # for char in char_fre:
-#     print(f"{char} : {char_fre[char]}")            
+#     print(f"{char} : {char_fre[char]}")
+            
+# ==========Check for Palindrome==============
 
-str = str(input("Enter a string: "))
-# print(reversed(str))
-reverse = ''
-for char in str:
-    reverse = char + reverse
+# str = str(input("Enter a string: "))
+# # print(reversed(str))
+# reverse = ''
+# for char in str:
+#     reverse = char + reverse
     
-if reverse == str:
-    print("true")
-else:
-    print("false")
+# if reverse == str:
+#     print("true")
+# else:
+#     print("false")
+
+
+
+# ===================Remove Duplicate Characters===========
+
+string = str(input("Enter a string: "))
+second= ''
+for char in string:
+    if char not in second:
+        second +=char
+     
+print(second)
