@@ -132,30 +132,5 @@ for char in string:
         frequency[char] = 1
 
 most_frequent = max(frequency,key=frequency.get)
-
-print("Mosr frequent character is: ", most_frequent)
-
-
-
-
-
-
-
-
-
-
-
-# # Dictionary to store character frequencies
-# frequency = {}
-
-# # Count occurrences
-# for char in string:
-#     if char in frequency:
-#         frequency[char] += 1
-#     else:
-#         frequency[char] = 1
-
-# # Find the character with the highest frequency
-# most_frequent = max(frequency, key=frequency.get)
-
-# print("Most frequent character:", most_frequent)
+count = frequency[most_frequent]
+print("Mosr frequent character is: ", most_frequent , "it appears: " , count, " times")
