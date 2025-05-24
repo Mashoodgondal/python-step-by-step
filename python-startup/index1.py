@@ -78,15 +78,26 @@
 # =============Find frequency of each charcter in string=============
 
 # Take input from user
-input_string = input("Enter a string: ")
+# input_string = input("Enter a string: ")
 
-char_fre={}
-for char in input_string:
-    if char in char_fre:
-        char_fre[char] += 1
-    else:
-        char_fre[char] = 1
+# char_fre={}
+# for char in input_string:
+#     if char in char_fre:
+#         char_fre[char] += 1
+#     else:
+#         char_fre[char] = 1
 
-print("Frequency of all characters is")
-for char in char_fre:
-    print(f"{char} : {char_fre[char]}")            
+# print("Frequency of all characters is")
+# for char in char_fre:
+#     print(f"{char} : {char_fre[char]}")            
+
+str = str(input("Enter a string: "))
+# print(reversed(str))
+reverse = ''
+for char in str:
+    reverse = char + reverse
+    
+if reverse == str:
+    print("true")
+else:
+    print("false")
