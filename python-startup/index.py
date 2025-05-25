@@ -304,6 +304,24 @@
 
 # if __name__ == '__main__':
 #     main()
+# def main():
+#     canvas = Canvas(CANVAS_WIDTH, CANVAS_HEIGHT)
+
+#     # Dimensions for the flag
+#     flag_width = 300
+#     flag_height = 200
+#     x = (CANVAS_WIDTH - flag_width) // 2
+#     y = (CANVAS_HEIGHT - flag_height) // 2
+
+#     # Top red part
+#     canvas.create_rectangle(x, y, x + flag_width, y + flag_height // 2, 'red')
+
+#     # Bottom white part
+#     canvas.create_rectangle(x, y + flag_height // 2, x + flag_width, y + flag_height, 'white')
+
+
+# if __name__ == '__main__':
+#     main()
 
 
 
