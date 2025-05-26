@@ -119,18 +119,30 @@
 
 # =============Most Frequient character=================
 
-string = input("Enter a string: ")
+# string = input("Enter a string: ")
 
-# Remove spaces
-string = string.replace(" ", "")
-frequency={}
+# # Remove spaces
+# string = string.replace(" ", "")
+# frequency={}
 
+# for char in string:
+#     if char in frequency:
+#         frequency[char] +=1
+#     else:
+#         frequency[char] = 1
+
+# most_frequent = max(frequency,key=frequency.get)
+# count = frequency[most_frequent]
+# print("Mosr frequent character is: ", most_frequent , "it appears: " , count, " times")
+
+# ============Remove Duplicates============
+
+string= str(input("Enter any string"))
+duplicate={}
+chars={}
 for char in string:
-    if char in frequency:
-        frequency[char] +=1
+    if char in chars:
+        duplicate[char]+=1
     else:
-        frequency[char] = 1
-
-most_frequent = max(frequency,key=frequency.get)
-count = frequency[most_frequent]
-print("Mosr frequent character is: ", most_frequent , "it appears: " , count, " times")
+        chars[char]=1
+print(chars)
