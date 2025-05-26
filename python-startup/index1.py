@@ -147,6 +147,36 @@
  
 # print(duplicate)
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+# my_str = "programming"
+# seen = set()
+# unique_str = ""
+
+# for char in my_str:
+#     if char not in seen:
+#         unique_str += char
+#         seen.add(char)
+
+# print(unique_str)
+
 my_str = "programming"
 seen = set()
 unique_str = ""
@@ -157,4 +187,13 @@ for char in my_str:
         seen.add(char)
 
 print(unique_str)
+my_str = "programming"
+seen = set()
+unique_str = ""
 
+for char in my_str:
+    if char not in seen:
+        unique_str += char
+        seen.add(char)
+
+print(unique_str)
