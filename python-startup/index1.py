@@ -137,12 +137,24 @@
 
 # ============Remove Duplicates============
 
-string= str(input("Enter any string"))
-duplicate=''
-seen = set()
-for char in string:
-    if char in seen:
-        duplicate+=char
-        seen.add(char)
+# string= str(input("Enter any string"))
+# duplicate=''
+# seen = set()
+# for char in string:
+#     if char in seen:
+#         duplicate+=char
+#         seen.add(char)
  
-print(duplicate)
+# print(duplicate)
+
+my_str = "programming"
+seen = set()
+unique_str = ""
+
+for char in my_str:
+    if char not in seen:
+        unique_str += char
+        seen.add(char)
+
+print(unique_str)
+
