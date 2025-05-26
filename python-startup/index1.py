@@ -138,11 +138,11 @@
 # ============Remove Duplicates============
 
 string= str(input("Enter any string"))
-duplicate={}
-chars={}
+duplicate=''
+seen = set()
 for char in string:
-    if char in chars:
-        duplicate[char]+=1
-    else:
-        chars[char]=1
-print(chars)
+    if char in seen:
+        duplicate+=char
+        seen.add(char)
+ 
+print(duplicate)
