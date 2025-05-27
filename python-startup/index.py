@@ -202,5 +202,21 @@
 # print(duplicate)
 
 
+# array= [2,5,6,7,6,5,4,3,2]
+# duplicate =[]
+# for i in array:
+#     if i not in duplicate:
+#         duplicate.append(i)
+# print(duplicate)
+
+
+# array= [2,5,6,7,6,5,4,3,2]
+# duplicate =[]
+# for i in array:
+#     if i not in duplicate:
+#         duplicate.append(i)
+# print(duplicate)
+
+
 
 
