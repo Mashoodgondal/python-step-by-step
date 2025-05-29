@@ -190,3 +190,19 @@
 # print(duplicate)
 
 
+# =================Remove duplicates from a sorted array (in-place).===========
+
+# array= [2,5,6,7,6,5,4,3,2]
+# newarr = list(set(array))
+# print(newarr)
+
+
+# ===> second method <=====
+
+# duplicate =[]
+# for i in array:
+#     if i not in duplicate:
+#         duplicate.append(i)
+# print(duplicate)
+
+
