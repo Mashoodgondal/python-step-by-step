@@ -172,87 +172,13 @@
 
 
 
-
-# arr = [2,4,6,7,8,6,8,9,6]
-# def second_largest(arr):
-#     unique =list(set(arr))
-#     unique.sort(reverse=True)
-#     return unique[1]
-# print(second_largest(arr))
-
-# ============third largest ===============
-
-# arr = [2,4,6,7,8,6,8,9,6]
-# def second_largest(arr):
-#     unique =list(set(arr))
-#     unique.sort(reverse=True)
-#     return unique[2]
-# arr = [2,4,6,7,8,6,8,9,6]
-# def second_largest(arr):
-#     unique =list(set(arr))
-#     unique.sort(reverse=True)
-#     return unique[1]
-# print(second_largest(arr))
-
-# ============third largest ===============
-
-# arr = [2,4,6,7,8,6,8,9,6]
-# def second_largest(arr):
-#     unique =list(set(arr))
-#     unique.sort(reverse=True)
-#     return unique[2]
-# arr = [2,4,6,7,8,6,8,9,6]
-# def second_largest(arr):
-#     unique =list(set(arr))
-#     unique.sort(reverse=True)
-#     return unique[1]
-# print(second_largest(arr))
-
-# ============third largest ===============
-
-# arr = [2,4,6,7,8,6,8,9,6]
-# def second_largest(arr):
-#     unique =list(set(arr))
-#     unique.sort(reverse=True)
-#     return unique[2]# arr = [2,4,6,7,8,6,8,9,6]
-# def second_largest(arr):
-#     unique =list(set(arr))
-#     unique.sort(reverse=True)
-#     return unique[1]
-# print(second_largest(arr))
-
-# ============third largest ===============
-
-# arr = [2,4,6,7,8,6,8,9,6]
-# def second_largest(arr):
-#     unique =list(set(arr))
-#     unique.sort(reverse=True)
-#     return unique[2]# arr = [2,4,6,7,8,6,8,9,6]
-# def second_largest(arr):
-#     unique =list(set(arr))
-#     unique.sort(reverse=True)
-#     return unique[1]
-# print(second_largest(arr))
-
-# ============third largest ===============
-
-# arr = [2,4,6,7,8,6,8,9,6]
-# def second_largest(arr):
-#     unique =list(set(arr))
-#     unique.sort(reverse=True)
-#     return unique[2]
-
-
-
-
-
 # ===================Find maximum number in array=============
-# def majorityElement(self, nums: List[int]) -> int:
-#         max_int=[]
-#         for i in range(int):
-#             if i not in max_int:
-#                 max_int[int] +=1
-#             else:
-#                 max_int[int]=1
-# return max_int
+from typing import List
+from collections import Counter
+nums=[2,34,5,6,4,3,2,4,5,4,3,2,3,43,2,3]
+class Solution:
+    def majorityElement(self, nums: List[int]) -> int:
+        count = Counter(nums)
+        return count.most_common(1)[0][0]
+
 
