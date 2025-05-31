@@ -242,3 +242,17 @@
 #     unique.sort(reverse=True)
 #     return unique[2]
 
+
+
+
+
+# ===================Find maximum number in array=============
+# def majorityElement(self, nums: List[int]) -> int:
+#         max_int=[]
+#         for i in range(int):
+#             if i not in max_int:
+#                 max_int[int] +=1
+#             else:
+#                 max_int[int]=1
+# return max_int
+
