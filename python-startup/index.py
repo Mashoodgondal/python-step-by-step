@@ -216,16 +216,8 @@ print(newarr)
 # from typing import List
 # from collections import Counter
 # nums=[2,34,5,6,4,3,2,4,5,4,3,2,3,43,2,3]
-# class Solution:
-#     def majorityElement(self, nums: List[int]) -> int:
-#         count = Counter(nums)
-#         return count.most_common(1)[0][0]
-# rom typing import List
-# from collections import Counter
-# nums=[2,34,5,6,4,3,2,4,5,4,3,2,3,43,2,3]
-# class Solution:
-#     def majorityElement(self, nums: List[int]) -> int:
-#         count = Counter(nums)
+
+  count = Counter(nums)
 #         return count.most_common(1)[0][0]
 #     # ===================Find maximum number in array=============
 # from typing import List
@@ -239,46 +231,4 @@ print(newarr)
 # from typing import List
 # from collections import Counter
 # nums=[2,34,5,6,4,3,2,4,5,4,3,2,3,43,2,3]
-# class Solution:
-#     def majorityElement(self, nums: List[int]) -> int:
-        # count = Counter(nums)
-        # return count.most_common(1)[0][0]
 
-          # ===================Find maximum number in array=============
-# from typing import List
-# from collections import Counter
-# nums=[2,34,5,6,4,3,2,4,5,4,3,2,3,43,2,3]
-# class Solution:
-#     def majorityElement(self, nums: List[int]) -> int:
-        # count = Counter(nums)
-        # return count.most_common(1)[0][0]
-          # ===================Find maximum number in array=============
-# from typing import List
-# from collections import Counter
-# nums=[2,34,5,6,4,3,2,4,5,4,3,2,3,43,2,3]
-# class Solution:
-#     def majorityElement(self, nums: List[int]) -> int:
-        # count = Counter(nums)
-        # return count.most_common(1)[0][0]  # ===================Find maximum number in array=============
-# from typing import List
-# from collections import Counter
-# nums=[2,34,5,6,4,3,2,4,5,4,3,2,3,43,2,3]
-# class Solution:
-#     def majorityElement(self, nums: List[int]) -> int:
-        # count = Counter(nums)
-        # return count.most_common(1)[0][0]
-        # from typing import List
-# from collections import Counter
-# nums=[2,34,5,6,4,3,2,4,5,4,3,2,3,43,2,3]
-# class Solution:
-#     def majorityElement(self, nums: List[int]) -> int:
-        # count = Counter(nums)
-        # return count.most_common(1)[0][0]
-
-        #   console.log("Current Answer:", userAnswer);
-        #                 console.log("Interview Data:", interviewData);
-        #                 console.log("Active Question:", questions[activeIndex]);
-        #                 console.log("Input Mode:", inputMode);
-        #                 console.log("Is Typing:", isTyping);
-        #                 console.log("Is Recording:", isRecording);
-        #             }}
