@@ -173,12 +173,7 @@
 
 
 # ===================Find maximum number in array=============
-from typing import List
-from collections import Counter
-nums=[2,34,5,6,4,3,2,4,5,4,3,2,3,43,2,3]
-class Solution:
-    def majorityElement(self, nums: List[int]) -> int:
-        count = Counter(nums)
-        return count.most_common(1)[0][0]
-
-
+arr = [2,4,5,6,7,5,4,3,2,2,4,5]
+newarr =list(set(arr))
+newarr.sort(reverse=True)
+print(newarr[0])
