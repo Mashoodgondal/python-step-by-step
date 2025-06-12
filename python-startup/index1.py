@@ -119,33 +119,34 @@
 
 # =============Most Frequient character=================
 
-# string = input("Enter a string: ")
+string = input("Enter a string: ")
+stringb = 'aliisagood'
+# Remove spaces
+string = string.replace(" ", "")
+frequency={}
 
-# # Remove spaces
-# string = string.replace(" ", "")
-# frequency={}
-
-# for char in string:
-#     if char in frequency:
-#         frequency[char] +=1
-#     else:
-#         frequency[char] = 1
-
-# most_frequent = max(frequency,key=frequency.get)
-# count = frequency[most_frequent]
-# print("Mosr frequent character is: ", most_frequent , "it appears: " , count, " times")
+for char in string:
+    if char in frequency:
+        frequency[char] +=1
+    else:
+        frequency[char] = 1
+count2 = frequency[stringb]
+print(count2)
+most_frequent = max(frequency,key=frequency.get)
+count = frequency[most_frequent]
+print("Mosr frequent character is: ", most_frequent , "it appears: " , count, " times")
 
 # ============Remove Duplicates============
 
-string= str(input("Enter any string: "))
-duplicate=''
-seen = set()
-for char in string:
-    if char in seen:
-        duplicate+=char
-        seen.add(char)
-print("you are great")
-print(duplicate)
+# string= str(input("Enter any string: "))
+# duplicate=''
+# seen = set()
+# for char in string:
+#     if char in seen:
+#         duplicate+=char
+#         seen.add(char)
+# print("you are great")
+# print(duplicate)
 
 # ===========find second largest in array================
 
