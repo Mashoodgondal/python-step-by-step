@@ -94,6 +94,7 @@
 # ==========Check for Palindrome==============
 
 # str = str(input("Enter a string: "))
+
 # # print(reversed(str))
 # reverse = ''
 # for char in str:
@@ -119,22 +120,22 @@
 
 # =============Most Frequient character=================
 
-string = input("Enter a string: ")
-stringb = 'aliisagood'
-# Remove spaces
-string = string.replace(" ", "")
-frequency={}
+# string = input("Enter a string: ")
+# stringb = 'aliisagood'
+# # Remove spaces
+# string = string.replace(" ", "")
+# frequency={}
 
-for char in string:
-    if char in frequency:
-        frequency[char] +=1
-    else:
-        frequency[char] = 1
-count2 = frequency[stringb]
-print(count2)
-most_frequent = max(frequency,key=frequency.get)
-count = frequency[most_frequent]
-print("Mosr frequent character is: ", most_frequent , "it appears: " , count, " times")
+# for char in string:
+#     if char in frequency:
+#         frequency[char] +=1
+#     else:
+#         frequency[char] = 1
+# count2 = frequency[stringb]
+# print(count2)
+# most_frequent = max(frequency,key=frequency.get)
+# count = frequency[most_frequent]
+# print("Mosr frequent character is: ", most_frequent , "it appears: " , count, " times")
 
 # ============Remove Duplicates============
 
