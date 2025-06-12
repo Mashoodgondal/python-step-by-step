@@ -137,15 +137,15 @@
 
 # ============Remove Duplicates============
 
-# string= str(input("Enter any string"))
-# duplicate=''
-# seen = set()
-# for char in string:
-#     if char in seen:
-#         duplicate+=char
-#         seen.add(char)
- 
-# print(duplicate)
+string= str(input("Enter any string: "))
+duplicate=''
+seen = set()
+for char in string:
+    if char in seen:
+        duplicate+=char
+        seen.add(char)
+print("you are great")
+print(duplicate)
 
 # ===========find second largest in array================
 
@@ -172,42 +172,7 @@
 # print(newarr[0])
 
 # ===================Find minimum number in array==============
-arr = [2,4,5,6,7,5,4,3,2,2,4,5]
-newarr =list(set(arr))
-newarr.sort(reverse=False)
-print(newarr[0])
-
-
-
-
-
-
-
-
-
-# ===================Find minimum number in array==============
 # arr = [2,4,5,6,7,5,4,3,2,2,4,5]
 # newarr =list(set(arr))
 # newarr.sort(reverse=False)
 # print(newarr[0])
-# ===================Find minimum number in array==============
-# arr = [2,4,5,6,7,5,4,3,2,2,4,5]
-# newarr =list(set(arr))
-# newarr.sort(reverse=False)
-# print(newarr[0])
-# ===================Find minimum number in array==============
-# arr = [2,4,5,6,7,5,4,3,2,2,4,5]
-# newarr =list(set(arr))
-# newarr.sort(reverse=False)
-# print(newarr[0])
-# ===================Find minimum number in array==============
-# arr = [2,4,5,6,7,5,4,3,2,2,4,5]
-# newarr =list(set(arr))
-# newarr.sort(reverse=False)
-# print(newarr[0])
-# ===================Find minimum number in array==============
-arr = [2,4,5,6,7,5,4,3,2,2,4,5]
-newarr =list(set(arr))
-newarr.sort(reverse=False)
-print(newarr[0])
-

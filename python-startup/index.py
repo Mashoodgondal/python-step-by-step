@@ -186,7 +186,6 @@ print(newarr)
 
 
 # ===> second method <=====
-
 # duplicate =[]
 # for i in array:
 #     if i not in duplicate:
