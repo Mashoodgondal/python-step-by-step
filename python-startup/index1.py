@@ -199,3 +199,16 @@
 #     print("true")
 # else:
 #     print("false")
+# ==========Check for Palindrome==============
+
+# str = str(input("Enter a string: "))
+
+# # print(reversed(str))
+# reverse = ''
+# for char in str:
+#     reverse = char + reverse
+    
+# if reverse == str:
+#     print("true")
+# else:
+#     print("false")
