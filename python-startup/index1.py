@@ -222,3 +222,13 @@
 #     print("true")
 # else:
 #     print("false")
+# # print(reversed(str))
+# reverse = ''
+# for char in str:
+#     reverse = char + reverse
+    
+# if reverse == str:
+#     print("true")
+# else:
+#     print("false")
+
