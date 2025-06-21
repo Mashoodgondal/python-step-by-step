@@ -18,7 +18,7 @@
 # ===========length=====
 # print(len(string))
 
-# ==========check work is available or not ==========
+# ==========check word is available or not ==========
 
 # print("ali" in string)
 
@@ -178,57 +178,4 @@
 # newarr =list(set(arr))
 # newarr.sort(reverse=False)
 # print(newarr[0])
-
-
-
-
-
-
-
-
-# ==========Check for Palindrome==============
-
-# str = str(input("Enter a string: "))
-
-# # print(reversed(str))
-# reverse = ''
-# for char in str:
-#     reverse = char + reverse
-    
-# if reverse == str:
-#     print("true")
-# else:
-#     print("false")
-# ==========Check for Palindrome==============
-
-# str = str(input("Enter a string: "))
-
-# # print(reversed(str))
-# reverse = ''
-# for char in str:
-#     reverse = char + reverse
-    
-# if reverse == str:
-#     print("true")
-# else:
-#     print("false")
-
-# # print(reversed(str))
-# reverse = ''
-# for char in str:
-#     reverse = char + reverse
-    
-# if reverse == str:
-#     print("true")
-# else:
-#     print("false")
-# # print(reversed(str))
-# reverse = ''
-# for char in str:
-#     reverse = char + reverse
-    
-# if reverse == str:
-#     print("true")
-# else:
-#     print("false")
 
