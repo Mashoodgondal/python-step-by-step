@@ -180,9 +180,9 @@
 
 # =================Remove duplicates from a sorted array (in-place).===========
 
-array= [2,5,6,7,6,5,4,3,2]
-newarr = list(set(array))
-print(newarr)
+# array= [2,5,6,7,6,5,4,3,2]
+# newarr = list(set(array))
+# print(newarr)
 
 
 # ===> second method <=====
@@ -191,3 +191,24 @@ print(newarr)
 #     if i not in duplicate:
 #         duplicate.append(i)
 # print(duplicate)
+
+
+
+
+
+
+
+
+
+# color = input("A color: ")
+# adjective = input("An adjective: ")
+# goal= input("A goal you would like to achieve:")
+# if color=='blue' and adjective=='smelly' and goal=='eat fewer bugs':
+#         # print("A color: ", color)
+#         # print("An adjective: ", adjective)
+#     print("At dawn the sky turned blue, and the air felt smelly. I decided today I will finally eat fewer bugs.")
+# if color=='pink' and adjective=='friendly' and goal=='learn to code':
+#         # print("A color: ", color)
+#         # print("An adjective: ", adjective)
+#     print("At dawn the sky turned pink, and the air felt friendly. I decided today I will finally learn to code.")
+
