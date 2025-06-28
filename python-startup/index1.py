@@ -118,6 +118,15 @@ for char in string:
 print(second)
 
 
+string = str(input("Enter a string: "))
+second= ''
+for char in string:
+    if char not in second:
+        second +=char
+     
+print(second)
+
+
 # =============Most Frequient character=================
 
 # string = input("Enter a string: ")
