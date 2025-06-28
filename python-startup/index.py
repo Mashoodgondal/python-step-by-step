@@ -195,9 +195,3 @@
 # Do some extra for success that is mendotory
 
 
-
-# =================Remove duplicates from a sorted array (in-place).===========
-
-# array= [2,5,6,7,6,5,4,3,2]
-# newarr = list(set(array))
-# print(newarr)

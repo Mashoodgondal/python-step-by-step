@@ -109,13 +109,13 @@
 
 # ===================Remove Duplicate Characters===========
 
-# string = str(input("Enter a string: "))
-# second= ''
-# for char in string:
-#     if char not in second:
-#         second +=char
+string = str(input("Enter a string: "))
+second= ''
+for char in string:
+    if char not in second:
+        second +=char
      
-# print(second)
+print(second)
 
 
 # =============Most Frequient character=================
@@ -173,9 +173,4 @@
 # newarr.sort(reverse=True)
 # print(newarr[0])
 
-# ===================Find minimum number in array==============
-# arr = [2,4,5,6,7,5,4,3,2,2,4,5]
-# newarr =list(set(arr))
-# newarr.sort(reverse=False)
-# print(newarr[0])
 
