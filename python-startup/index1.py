@@ -199,9 +199,6 @@ for char in string:
         second +=char
      
 print(second)
-
-
-
 # ====================================
 string = str(input("Enter a string: "))
 second= ''
