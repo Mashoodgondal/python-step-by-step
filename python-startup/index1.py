@@ -109,13 +109,13 @@
 
 # ===================Remove Duplicate Characters===========
 
-string = str(input("Enter a string: "))
-second= ''
-for char in string:
-    if char not in second:
-        second +=char
+# string = str(input("Enter a string: "))
+# second= ''
+# for char in string:
+#     if char not in second:
+#         second +=char
      
-print(second)
+# print(second)
 
 
 
@@ -189,31 +189,11 @@ for char in string:
 print(second)
 
 
-
-
-# ====================================
 string = str(input("Enter a string: "))
-second= ''
-for char in string:
-    if char not in second:
-        second +=char
+# second= ''
+# for char in string:
+#     if char not in second:
+#         second +=char
      
-print(second)
-# ====================================
-string = str(input("Enter a string: "))
-second= ''
-for char in string:
-    if char not in second:
-        second +=char
-     
-print(second)
+# print(second)
 
-
-# ====================================
-string = str(input("Enter a string: "))
-second= ''
-for char in string:
-    if char not in second:
-        second +=char
-     
-print(second)
