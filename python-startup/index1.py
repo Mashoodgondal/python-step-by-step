@@ -216,4 +216,14 @@
 #     unique =list(set(arr))
 #     unique.sort(reverse=True)
 #     return unique[2]
+# print(second_largest(arr)# arr = [2,4,6,7,8,6,8,9,6]
+# def second_largest(arr):
+#     unique =list(set(arr))
+#     unique.sort(reverse=True)
+#     return unique[2]
+# print(second_largest(arr)# arr = [2,4,6,7,8,6,8,9,6]
+# def second_largest(arr):
+#     unique =list(set(arr))
+#     unique.sort(reverse=True)
+#     return unique[2]
 # print(second_largest(arr)
