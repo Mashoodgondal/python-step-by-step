@@ -178,3 +178,29 @@
 
 
 
+
+
+
+
+
+
+# ============third largest ===============
+
+# arr = [2,4,6,7,8,6,8,9,6]
+# def second_largest(arr):
+#     unique =list(set(arr))
+#     unique.sort(reverse=True)
+#     return unique[2]
+# print(second_largest(arr))
+
+# ===================Find maximum number in array=============
+# arr = [2,4,5,6,7,5,4,3,2,2,4,5]
+# newarr =list(set(arr))
+# newarr.sort(reverse=True)
+# print(newarr[0])
+
+
+
+
+
+
