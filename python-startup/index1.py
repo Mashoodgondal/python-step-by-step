@@ -62,7 +62,8 @@
 #      if char in vowels:
 #         count += 1
 #     return count
-# print(count_vovels("education"))
+# vowels = str(input("Enter a string: "))
+# print(count_vovels(vowels))
 
 
 # =========reverse strign==============
@@ -118,12 +119,9 @@
 # print(second)
 
 
-
-
 # =============Most Frequient character=================
 
 # string = input("Enter a string: ")
-# stringb = 'aliisagood'
 # # Remove spaces
 # string = string.replace(" ", "")
 # frequency={}
@@ -133,8 +131,8 @@
 #         frequency[char] +=1
 #     else:
 #         frequency[char] = 1
-# count2 = frequency[stringb]
-# print(count2)
+
+# print(string)
 # most_frequent = max(frequency,key=frequency.get)
 # count = frequency[most_frequent]
 # print("Mosr frequent character is: ", most_frequent , "it appears: " , count, " times")
@@ -179,26 +177,4 @@
 
 
 
-# ====================================
-# string = str(input("Enter a string: "))
-# second= ''
-# for char in string:
-#     if char not in second:
-#         second +=char
-     
-# print(second)
 
-
-
-
-
-
-
-
-
-# arr = [2,4,6,7,8,6,8,9,6]
-# def second_largest(arr):
-#     unique =list(set(arr))
-#     unique.sort(reverse=True)
-#     return unique[2]
-# print(second_largest(arr)

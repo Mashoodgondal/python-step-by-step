@@ -192,6 +192,6 @@
 #         duplicate.append(i)
 # print(duplicate)
 
-# Do some extra for success that is mendotory
+# Do some extra for success that is mandatory
 
 
