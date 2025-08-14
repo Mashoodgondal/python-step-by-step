@@ -153,12 +153,12 @@
 
 # ===========find second largest in array================
 
-arr = [2,4,6,7,8,6,8,9,6]
-def second_largest(arr):
-    unique =list(set(arr))
-    unique.sort(reverse=True)
-    return unique[1]
-print(second_largest(arr))
+# arr = [2,4,6,7,8,6,8,9,6]
+# def second_largest(arr):
+#     unique =list(set(arr))
+#     unique.sort(reverse=True)
+#     return unique[1]
+# print(second_largest(arr))
 
 # ============third largest ===============
 
@@ -179,65 +179,6 @@ print(second_largest(arr))
 
 
 
-# ====================================
-# string = str(input("Enter a string: "))
-# second= ''
-# for char in string:
-#     if char not in second:
-#         second +=char
-     
-# print(second)
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-# ====================================
-# string = str(input("Enter a string: "))
-# second= ''
-# for char in string:
-#     if char not in second:
-#         second +=char
-     
-# print(second)
-# ====================================
-# string = str(input("Enter a string: "))
-# second= ''
-# for char in string:
-#     if char not in second:
-#         second +=char
-     
-# print(second)
-# ====================================
-# string = str(input("Enter a string: "))
-# second= ''
-# for char in string:
-#     if char not in second:
-#         second +=char
-     
-# print(second)
-    # ====================================
-# string = str(input("Enter a string: "))
-# second= ''
-# for char in string:
-#     if char not in second:
-#         second +=char
-     
-# print(second)
 # ====================================
 # string = str(input("Enter a string: "))
 # second= ''

@@ -58,7 +58,7 @@
 # print("here is the sum of all numbers:" , sum(numbers))
 # ================print all elements==============
 # print("All numbers:", numbers)
-# ===========remove arrording ot condition=========
+# ===========remove accordign to condition=========
 # numbers.pop(3)
 # print("remove last element" , numbers)
 # ============insert element============
@@ -93,7 +93,7 @@
 # roll = random.randint(1, sides)
 # print("Your roll is ", roll)
 
-# ========== judge usign color and adjecent========
+# ========== judge using color and adjecent========
 
 # color = input("A color: ")
 # adjective = input("An adjective: ")
