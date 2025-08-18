@@ -172,3 +172,21 @@
 # newarr =list(set(arr))
 # newarr.sort(reverse=True)
 # print(newarr[0])
+
+
+
+
+
+
+
+
+
+
+
+
+
+# ===================Find maximum number in array=============
+# arr = [2,4,5,6,7,5,4,3,2,2,4,5]
+# newarr =list(set(arr))
+# newarr.sort(reverse=True)
+# print(newarr[0])
