@@ -175,3 +175,8 @@
 
 
 
+# ======STRING SORTING METHODS
+
+fruit=['apple','mengo','manana','orange']
+fruit.sort(key=str.lower)
+print(fruit)
