@@ -182,14 +182,3 @@ fruit.sort(key=str.lower)
 print(fruit)
 
 
-
-
-
-# fruit=['apple','mengo','manana','orange']
-# fruit.sort(key=str.lower)
-# print(fruit)
-fruit=['apple','mengo','manana','orange']
-fruit.sort(key=str.lower)
-print(fruit)fruit=['apple','mengo','manana','orange']
-fruit.sort(key=str.lower)
-print(fruit)
